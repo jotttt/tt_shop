@@ -23,7 +23,7 @@ a {
 h1,
 .welcome {
 	color: #636E75;
-	font: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
+	font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
 	margin-top: 0px;
 	margin-bottom: 20px;
 	font-size: 32px;
@@ -93,6 +93,7 @@ label {
 #column-left {
 	float: left;
 	width: 180px;
+	display: none;
 }
 
 /*#column-right {

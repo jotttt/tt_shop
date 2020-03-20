@@ -67,7 +67,7 @@ select {
 
 .global-site-notice .notice-inner p {
     margin: 0;
-    border: 1px dotted #cccc73;
+    border: 1px solid #cccc73;
     padding: 10px;
 }
 
@@ -321,6 +321,10 @@ img {
     width: 255px;
 }
 
+.col-right.sidebar #column-right .block.block-account{
+    display: none;
+}
+
 .col-left {
     float: left;
     margin-top: 0px;
@@ -463,7 +467,7 @@ header .phone {
     float: right;
     font-size: 14px;
     margin-top: 0px;
-    color: #000;
+    color: #333;
     line-height: normal;
 }
 
@@ -692,7 +696,7 @@ header .header .top-link-compare .compare-items {
 }
 
 .language_detail a+a {
-    border-top: 1px solid #000;
+    border-top: 1px solid #333;
 }
 
 .language-box .language_detail .language-inner {
@@ -790,15 +794,15 @@ header .header .top-link-compare .compare-items {
 }
 
 .currency_detail a b {
-    color: #e40d7e;
+    color: #e40d7e !important;
 }
 
 .currency_detail a:hover {
-    color: #e40d7e;
+    color: #e40d7e !important;
 }
 
 .currency_detail a+a {
-    border-top: 1px solid #000;
+    border-top: 1px solid #333;
 }
 
 .currency-box .currency_detail .currency-inner {
@@ -902,7 +906,7 @@ header .header .top-link-compare .compare-items {
 
 .toplinks .links div .click-nav ul .clicker {
     background: none;
-    color: #000;
+    color: #333;
     text-shadow: none !important;
     font-size: 11px;
     padding: 0px;
@@ -964,7 +968,7 @@ header .header .top-link-compare .compare-items {
 }
 
 .toplinks .links div .click-nav .no-js:hover ul li a:hover {
-    color: #000;
+    color: #333;
 }
 
 .toplinks .links div .click-nav ul li ul.link {
@@ -1047,7 +1051,7 @@ header .header .top-link-compare .compare-items {
 }
 
 .top-cart-contain .product-details .price {
-    color: #D23333;
+    color: #333;
     width: auto;
     float: none;
     font-weight: normal;
@@ -1087,7 +1091,7 @@ header .header .top-link-compare .compare-items {
 }
 
 .mini-cart .open .basket a {
-    color: #000;
+    color: #333;
     background: #fff;
     border: 1px #000 solid;
     border-top: none;
@@ -1383,7 +1387,7 @@ ul#cart-sidebar {
 }
 
 .mini-cart>.button {
-    color: #000;
+    color: #333;
     font-size: 14px;
     text-shadow: none;
     border: none;
@@ -1455,7 +1459,7 @@ ul#cart-sidebar {
 }
 
 .button:hover {
-    background: #d23333;
+    background: #333;
     color: #fff !important;
 }
 
@@ -1630,7 +1634,6 @@ p.control input.radio {
 .form-list li.control,
 .form-list li.has-pretty-child {
     /*margin-bottom:10px;*/
-    ;
 }
 
 .form-list label {
@@ -2025,7 +2028,7 @@ input#coupon_code {
 #shopping-cart-table a.remove-item:hover {
     background-image: none;
     padding: 6px 11px;
-    color: #000;
+    color: #333;
     background-color: #fff;
     /*-webkit-border-radius: 2px;
   -moz-border-radius: 2px;*/
@@ -2106,7 +2109,6 @@ input#coupon_code {
 .form-list li.control,
 .form-list li.has-pretty-child {
     /*margin-bottom: 20px;*/
-    ;
 }
 
 .forgot-password {
@@ -2197,7 +2199,6 @@ input#coupon_code {
 
 .form-list .validation-advice {
     /*position: absolute;*/
-    ;
 }
 
 .sp-methods .prettycheckbox>a,
@@ -2469,7 +2470,7 @@ form h3,
     border: 0px #eee solid;
     background: #f8f8f8;
     padding: 5px 10px;
-    color: #000;
+    color: #333;
 }
 
 /*============ Sorter ============*/
@@ -2565,7 +2566,7 @@ form h3,
 }
 
 #sort-by li li a:hover {
-    color: #000;
+    color: #333;
 }
 
 #sort-by li:hover {
@@ -2574,7 +2575,7 @@ form h3,
 
 #sort-by li li:hover {
     background-color: #fff;
-    color: #000;
+    color: #333;
 }
 
 #sort-by ul ul {
@@ -2606,7 +2607,7 @@ form h3,
 .right-arrow:after {
     content: "\f0d7";
     font-family: 'FontAwesome' !important;
-    color: #000;
+    color: #333;
     font-size: 14px;
 }
 
@@ -2651,16 +2652,16 @@ form h3,
 }
 
 #limiter li li a:hover {
-    color: #000;
+    color: #333;
 }
 
 #limiter li:hover {
-    color: #000;
+    color: #333;
     background-color: #fff;
 }
 
 #limiter li li:hover {
-    color: #000;
+    color: #333;
     background-color: #fff;
 }
 
@@ -2670,7 +2671,7 @@ form h3,
     left: -1px;
     top: 25px;
     z-index: 10000;
-    color: #000;
+    color: #333;
     border-top: none;
     border: 0px #F0F0F0 solid;
 }
@@ -2964,7 +2965,7 @@ form h3,
 
 /*============ View Type: Grid ============*/
 .row_divider {
-    border-top: 1px dotted #CCCCCC;
+    border-top: 1px solid #CCCCCC;
     clear: both;
     margin: 24px 0 0;
     padding: 15px 0 0;
@@ -3245,14 +3246,14 @@ a.link-compare:hover {
     text-decoration: none;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
     font-size: 13px;
-    color: #000;
+    color: #333;
     letter-spacing: 1px;
     font-weight: normal;
     text-transform: uppercase;
 }
 
 .products-grid .item .item-inner .item-info .info-inner .item-title a:hover {
-    color: #D23333;
+    color: #333;
 }
 
 .products-grid .item:hover .item-inner .item-img .cart-wrap .btn-cart {
@@ -3294,7 +3295,7 @@ a.link-compare:hover {
   opacity:0.3
 }*/
 .products-grid .item:hover .item-inner .item-info .info-inner .item-title a {
-    color: #000;
+    color: #333;
 }
 
 .products-grid .add-to-links {
@@ -3865,7 +3866,7 @@ tr.summary-details-excluded {
   -webkit-box-shadow:0 0px 0px rgba(0, 0, 0, .3), inset 0 1px 0 #999;*/
     box-shadow: 0 0px 0px rgba(0, 0, 0, .3), inset 0 1px 0 #999;
     padding: 3px 12px;
-    text-shadow: 0 1px 0 #000;
+    text-shadow: 0 1px 0 #333;
 }
 
 .button-inverse:hover,
@@ -3878,7 +3879,7 @@ tr.summary-details-excluded {
   -webkit-box-shadow:0 0px 0px rgba(0, 0, 0, .3), inset 0 1px 0 #999;*/
     box-shadow: 0 0px 0px rgba(0, 0, 0, .3), inset 0 1px 0 #999;
     padding: 3px 12px;
-    text-shadow: 0 1px 0 #000;
+    text-shadow: 0 1px 0 #333;
 }
 
 .button,
@@ -4059,7 +4060,7 @@ font-size: 15px;
 .buttons-set .back-link a:hover small {
     font-size: 16px;
     font-weight: 400;
-    color: #000;
+    color: #333;
     padding: 0;
 }
 
@@ -4068,7 +4069,7 @@ font-size: 15px;
     background: none repeat scroll 0 0 transparent;
     border: medium none;
     box-shadow: none;
-    color: #000;
+    color: #333;
     display: inline-block;
     text-shadow: none;
     padding: 0;
@@ -4280,7 +4281,7 @@ p {
 }
 
 .box-category>ul>li>a {
-    color: #000;
+    color: #333;
     text-transform: uppercase;
     display: block;
     font-size: 14px;
@@ -4309,7 +4310,7 @@ p {
 }
 
 .box-category>ul>li>a.active {
-    color: #000;
+    color: #333;
     margin-bottom: 0;
 }
 
@@ -4333,7 +4334,7 @@ p {
     padding: 4px 15px !important;
     text-decoration: none;
     padding-left: 5px;
-    color: #000;
+    color: #333;
     transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -4527,7 +4528,7 @@ p {
 .block .block-content .price {
     font-size: 14px;
     font-weight: 400;
-    color: #D23333;
+    color: #333;
 }
 
 /*============ Block: Account ============*/
@@ -4587,15 +4588,15 @@ content: "\f10c";
 .block-account .block-content li a:hover {
     cursor: pointer;
     padding: 0;
-    color: #000;
+    color: #333;
 }
 
 .sidebar .block-content li.current {
-    color: #D23333;
+    color: #333;
 }
 
 .sidebar .block-content li.current a {
-    color: #D23333;
+    color: #333;
 }
 
 /*============ Block: Currency Switcher ============*/
@@ -4818,7 +4819,7 @@ content: "\f10c";
     border: 0px #111 solid;
     background: #222;
     padding: 6px 10px;
-    text-shadow: 0 1px 0 #000;
+    text-shadow: 0 1px 0 #333;
     border-radius: 2px;
     color: #FFFFFF;
     font-size: 11px;
@@ -5122,7 +5123,7 @@ ol#compare-items li.last {
 
 .block-viewed .block-content li a:hover {
     font-size: 13px;
-    color: #000;
+    color: #333;
 }
 
 .block-viewed li span {
@@ -5215,7 +5216,7 @@ content: "\f10c";
 
 .block-compared .block-content li a:hover {
     font-size: 13px;
-    color: #000;
+    color: #333;
 }
 
 .block-compared li span {
@@ -5461,7 +5462,7 @@ content: "\f10c";
 
 .block-company li a:hover {
     padding: 0px;
-    color: #000;
+    color: #333;
 }
 
 /*.block-company li:before {
@@ -5488,7 +5489,7 @@ content: "\f10c";
 }
 
 .block-company li strong {
-    color: #D23333;
+    color: #333;
     font-weight: normal;
     padding: 0;
     text-transform: uppercase;
@@ -5588,7 +5589,7 @@ content: "\f10c";
     text-transform: uppercase;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
     letter-spacing: 1px;
-    color: #000;
+    color: #333;
 }
 
 #my-orders-table {
@@ -5775,13 +5776,13 @@ content: "\f10c";
 
 .regular-price .price {
     font-size: 15px;
-    color: #d23333;
+    color: #333;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
 }
 
 .block .regular-price,
 .block .regular-price .price {
-    color: #000;
+    color: #333;
 }
 
 /*============ Old price ============*/
@@ -5833,7 +5834,7 @@ content: "\f10c";
 
 .special-price .price {
     font-size: 15px;
-    color: #d23333;
+    color: #333;
     font-weight: normal;
 }
 
@@ -5917,7 +5918,7 @@ content: "\f10c";
 
 .minimal-price-link .price {
     font-weight: normal;
-    color: #D23333;
+    color: #333;
     font-size: 14px;
 }
 
@@ -5939,7 +5940,7 @@ small {
 }
 
 a:hover.product-name {
-    color: #000;
+    color: #333;
     margin: 0px;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
     font-size: 12px;
@@ -5955,12 +5956,12 @@ a:hover.product-name {
 
 .sidebar .product-name a:hover {
     text-transform: none;
-    color: #000;
+    color: #333;
 }
 
 /*============ Category Page ============== */
 .category-title {
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px solid #ccc;
     margin: 0 0 10px;
 }
 
@@ -5988,7 +5989,7 @@ a:hover.product-name {
 }
 
 .category-image .collection-title .collection-des {
-    color: #000;
+    color: #333;
     font-style: italic;
     left: 35px;
     line-height: 1.6em;
@@ -6010,7 +6011,7 @@ a:hover.product-name {
 
 .products-list .product-name a {
     font-size: 14px;
-    color: #000;
+    color: #333;
     font-weight: normal;
     text-align: left;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
@@ -6021,7 +6022,7 @@ a:hover.product-name {
 .products-list .item.first {
     padding: 0px 0px 25px 0;
     background-color: #FFFFFF;
-    border-bottom: 1px dotted #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
     clear: both;
     float: left;
     margin-top: 15px !important;
@@ -6031,7 +6032,7 @@ a:hover.product-name {
     padding: 15px 0px 25px 0;
     margin: 5px 0 !important;
     background-color: #FFFFFF;
-    border-bottom: 1px dotted #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
     clear: both;
     float: left;
 }
@@ -6041,7 +6042,7 @@ a:hover.product-name {
 }
 
 .products-list .item a:hover {
-    color: #000;
+    color: #333;
     transition: all 0.3s linear;
     /*-moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;*/
@@ -6079,7 +6080,7 @@ ol.products-list {
 }
 
 .products-list .last {
-    border-bottom: 1px dotted #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
     padding: 15px 0px 20px 0;
 }
 
@@ -6146,7 +6147,7 @@ li .list {
     font-size: 13px;
     font-weight: normal;
     margin-top: 5px;
-    color: #000;
+    color: #333;
 }
 
 .products-list .actions .add-to-links a.link-wishlist:before {
@@ -6194,7 +6195,7 @@ li .list {
 }
 
 .products-list .actions .add-to-links a.link-wishlist {
-    color: #000;
+    color: #333;
     font-family: 'FontAwesome' !important;
     font-size: 12px;
     font-weight: normal;
@@ -6434,7 +6435,7 @@ ul.products-grid {
 .cloud-zoom-title {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute !important;
-    background-color: #000;
+    background-color: #333;
     color: #fff;
     padding: 3px;
     width: 100%;
@@ -6457,7 +6458,7 @@ ul.products-grid {
     color: white;
     background: #222;
     padding: 3px;
-    border: 1px solid #000;
+    border: 1px solid #333;
     display: none;
 }
 
@@ -6679,12 +6680,12 @@ ul.products-grid {
     line-height: normal;
     font-weight: normal;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
-    color: #000;
+    color: #333;
     padding-bottom: 12px;
 }
 
 .product-view .short-description {
-    border-bottom: 0px dotted #000;
+    border-bottom: 0px solid #333;
     padding-bottom: 10px;
     font-size: 12px;
     margin-top: 18px;
@@ -6833,18 +6834,12 @@ ul.products-grid {
     margin-right: 5px;
 }
 
-.product-view .product-shop .add-to-links {
-    /*margin:0;
-  font-size:13px;*/
-    ;
-}
-
 .product-view .product-shop ul.add-to-links {
     margin: 0;
     padding: 0;
     float: left;
     display: inline-block;
-    border-bottom: 1px dotted #010101;
+    border-bottom: 1px solid #999;
     width: 100%;
 }
 
@@ -6932,7 +6927,7 @@ ul.products-grid {
 .product-view .product-shop .ratings {
     margin: 12px 0;
     padding: 18px 0 14px;
-    border-bottom: 1px dotted #010101;
+    border-bottom: 1px solid #999;
 }
 
 .product-view .product-shop .ratings .rating-links {
@@ -6940,18 +6935,19 @@ ul.products-grid {
 }
 
 .product-view .product-shop .price-block {
-    border-bottom: 1px dotted #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
     margin-bottom: 18px;
     padding-bottom: 0;
 }
 
 .product-view .product-shop .price-box {
+    font-size: 24px;
     display: block;
-    padding: 14px 0 0px;
+    padding: 0px 0 0px;
     margin: 0 0 6px 0;
     clear: both;
-    border-bottom: 1px #999 solid;
-    border-top: 1px #999 solid;
+    border-bottom: 0px #999 solid;
+    border-top: 0px #999 solid;
 }
 
 .product-view .product-shop .price-box-bundle .price-box {
@@ -6977,7 +6973,7 @@ ul.products-grid {
 
 .product-view .product-shop .price {
     font-size: 26px;
-    color: #D23333;
+    color: #333;
     font-weight: normal;
 }
 
@@ -6995,7 +6991,7 @@ ul.products-grid {
 
 .product-right-block .product-brand .brand-img {
     text-align: center;
-    border-bottom: 1px dotted #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
     margin-bottom: 14px;
     padding-bottom: 18px;
 }
@@ -7066,7 +7062,7 @@ ul.products-grid {
 }
 
 .qty-input-text select.balck {
-    background-color: #000;
+    background-color: #333;
 }
 
 .qty-input-text select.option3 {
@@ -7090,7 +7086,7 @@ ul.products-grid {
 }
 
 .product-view .product-custom {
-    border-top: 1px #ddd dotted;
+    border-top: 1px #ddd solid;
     margin-top: 18px;
     padding-top: 18px;
 }
@@ -7703,7 +7699,7 @@ fieldset {
 }
 
 .tab-box .activeLink a {
-    color: #000;
+    color: #333;
     font-weight: normal;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
     padding: 0 14px;
@@ -7712,7 +7708,7 @@ fieldset {
 
 
 .tab-box .activeLink a:hover {
-    color: #000;
+    color: #333;
     font-weight: normal;
 }
 
@@ -7984,7 +7980,7 @@ textarea {
     background: none;
     border: 0;
     padding: 3px;
-    color: #000;
+    color: #333;
 }
 
 .product-options dd {
@@ -8145,7 +8141,7 @@ textarea {
     margin-bottom: 10px;
     right: 0;
     margin-top: 20px;
-    border-bottom: 1px dotted #010101;
+    border-bottom: 1px solid #999;
     padding-bottom: 18px;
 }
 
@@ -8626,7 +8622,7 @@ select#billing-address-select:focus {
     line-height: 15px;
     font-size: 14px;
     font-weight: 700;
-    color: #000;
+    color: #333;
     padding: 9px 13px;
     background-color: #EBEBE7;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
@@ -8637,7 +8633,7 @@ select#billing-address-select:focus {
 }
 
 .one-page-checkout .active .step-title .number {
-    color: #000;
+    color: #333;
     padding: 9px 12px;
     background-color: #FDF208;
     border-radius: 30px;
@@ -8666,7 +8662,7 @@ select#billing-address-select:focus {
     font-weight: 700;
     font-size: 15px;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
-    color: #000;
+    color: #333;
     letter-spacing: 1px;
 }
 
@@ -9236,7 +9232,7 @@ text-decoration:none;
 
 .login_page .page-title h2 {
     font-size: 24px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #333;
     margin: 0 0 10px;
     padding: 0 0 8px;
     color: #342c61;
@@ -9409,7 +9405,7 @@ button.button.btn-add {
     background: #e40d7e;
     padding: 10px 16px !important;
     text-transform: uppercase;
-    color: #000;
+    color: #333;
 }
 
 button.button.btn-add:hover {
@@ -9598,7 +9594,7 @@ button.button.submit:before {
 
 button.button.submit:hover {
     color: #fff;
-    background-color: #D23333;
+    background-color: #333;
     padding: 6px 12px;
 }
 
@@ -9765,7 +9761,7 @@ button.button.view-all:before {
 }
 
 .product-next-prev .product-prev:hover {
-    color: #000;
+    color: #333;
     background: #fff;
 }
 
@@ -9793,7 +9789,7 @@ button.button.view-all:before {
 }
 
 .product-next-prev .product-next:hover {
-    color: #000;
+    color: #333;
     background: #fff;
 }
 
@@ -9853,7 +9849,7 @@ nav.dropdown p.act:hover {
 }
 
 nav.dropdown p:hover {
-    background: #000;
+    background: #333;
     color: #fff !important;
 }
 
@@ -10676,7 +10672,7 @@ a.forgot-word {
 }
 
 .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
-    color: #000;
+    color: #333;
 }
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:after {
@@ -10704,7 +10700,7 @@ a.forgot-word {
 }
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
-    color: #000;
+    color: #333;
 }
 
 .jcarousel-skin-tango .jcarousel-next-horizontal {
@@ -10761,7 +10757,7 @@ a.forgot-word {
 
 .jcarousel-skin-tango .jcarousel-item-placeholder {
     background: #fff;
-    color: #000;
+    color: #333;
 }
 
 .jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
@@ -10881,7 +10877,7 @@ footer .footer-column a {
 }
 
 .footer-bottom .inner a:hover {
-    color: #000;
+    color: #333;
 }
 
 footer a,
@@ -10903,7 +10899,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #000;
+    color: #333;
 }
 
 footer p {
@@ -11160,7 +11156,7 @@ footer address {
 }
 
 .footer-newsletter .inner .newsletter {
-    border-right: 1px dotted #999;
+    border-right: 1px solid #999;
     float: left;
     margin: 0;
     overflow: hidden;
@@ -11194,7 +11190,7 @@ footer address {
     font-weight: normal;
     font-size: 12px;
     text-transform: uppercase;
-    color: #000;
+    color: #333;
     float: left;
     margin-left: 6px;
     border: 1px #ddd solid;
@@ -11679,7 +11675,7 @@ button.subscribe:hover {
 }
 
 .new_title h2 {
-    color: #000;
+    color: #333;
     font-size: 12px;
     font-weight: normal;
     margin-top: 0;
@@ -11809,7 +11805,7 @@ button.subscribe:hover {
 .new-label {
     font-size: 11px;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
-    color: #000;
+    color: #333;
     background: #ffc60a;
     text-transform: uppercase;
     padding: 4px 10px 4px;
@@ -11901,7 +11897,7 @@ button.subscribe:hover {
 .product-view #product-img-box .new-label.new-top-left {
     font-size: 16px;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
-    color: #000;
+    color: #333;
     background: #ffd739;
     text-transform: uppercase;
     padding: 10px 25px;
@@ -11917,7 +11913,7 @@ button.subscribe:hover {
 .product-view #product-img-box .new-label.new-top-right {
     font-size: 16px;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
-    color: #000;
+    color: #333;
     background: #ffd739;
     text-transform: uppercase;
     padding: 10px 25px;
@@ -11934,7 +11930,7 @@ button.subscribe:hover {
     font-size: 16px;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
     color: #fff;
-    background: #D23333;
+    background: #333;
     text-transform: uppercase;
     padding: 10px 25px;
     text-align: center;
@@ -11950,7 +11946,7 @@ button.subscribe:hover {
     font-size: 16px;
     font-family: Proxima Nova, 'Segoe UI', Roboto, Arial !important;
     color: #fff;
-    background: #D23333;
+    background: #333;
     text-transform: uppercase;
     padding: 10px 25px;
     text-align: center;
@@ -12072,7 +12068,7 @@ button.subscribe:hover {
 
 .jcarousel-skin-tango4 .jcarousel-item-placeholder {
     background: #fff;
-    color: #000;
+    color: #333;
 }
 
 /**
@@ -12362,7 +12358,7 @@ button.subscribe:hover {
 .cloud-zoom-title {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute !important;
-    background-color: #000;
+    background-color: #333;
     color: #fff;
     padding: 3px;
     width: 100%;
@@ -12385,7 +12381,7 @@ button.subscribe:hover {
     color: white;
     background: #222;
     padding: 3px;
-    border: 1px solid #000;
+    border: 1px solid #333;
     display: none;
 }
 
@@ -12415,11 +12411,7 @@ button.subscribe:hover {
 .static-contain .group-select li textarea:focus {
   width:612px;
 }*/
-.static-contain .group-select li input.input-text.required-entry,
-.group-select li textarea {
-    /*width:612px;*/
-    ;
-}
+
 
 /*listing page category description*/
 
@@ -12439,12 +12431,6 @@ button.subscribe:hover {
 .page-sitemap .pager {
     float: left;
     width: 1240px;
-}
-
-/*add new address dashboard*/
-.customer-address-form #form-validate .input-box .validate-select {
-    /*width:630px;*/
-    ;
 }
 
 /*my order dashboard*/
@@ -12613,11 +12599,6 @@ button.subscribe:hover {
     width: 570px;
 }
 
-.checkout-onepage-index #checkout-step-billing .form-list .validate-select {
-    /*width:600px;*/
-    ;
-}
-
 .checkout-onepage-index .main-container-inner .step .btn-checkout {
     border: medium none;
     float: right;
@@ -12625,17 +12606,8 @@ button.subscribe:hover {
     padding: 8px 16px;
 }
 
-.checkout-onepage-index #checkout-step-shipping #shipping-new-address-form .validate-select {
-    /*width:600px;*/
-    ;
-}
 
 /*shipping with multiple address*/
-
-.checkout-multishipping-address-newshipping #form-validate .input-box .validate-select {
-    /*width:826px;*/
-    ;
-}
 
 .checkout-multishipping-overview .multiple_addresses #review-button {
     float: right;
@@ -12717,7 +12689,7 @@ a#wishlist1_button {
 a:hover#wishlist1_button {
     text-transform: uppercase;
     font-size: 10px;
-    color: #000;
+    color: #333;
 }
 
 #wishlist-sidebar li {
@@ -12753,7 +12725,7 @@ a#wishlist_button {
 a:hover#wishlist_button {
     text-transform: uppercase;
     font-size: 10px;
-    color: #000;
+    color: #333;
 }
 
 .sendfriend-product-send .form-list textarea {
@@ -12766,12 +12738,6 @@ a:hover#wishlist_button {
 
 #product-options-wrapper .options-list .price {
     font-size: 14px;
-}
-
-.show_hide {
-    /*position: absolute;
-  right: 0;*/
-    ;
 }
 
 /*shoppping cart*/
@@ -12814,7 +12780,7 @@ a:hover#wishlist_button {
 
 #wishlist-table a.remove-item:hover {
     padding: 3px 11px;
-    color: #000;
+    color: #333;
     background-color: #fff;
     border-radius: 0px;
     /*-moz-border-radius:0px;
@@ -12904,7 +12870,7 @@ a.button.view-all:before {
 a.button.view-all {
     display: inline-block;
     border: 0;
-    background: #d23333;
+    background: #333;
     padding: 6px 12px;
     font-size: 12px;
     text-align: center;
@@ -12928,7 +12894,7 @@ a.button.view-all {
     transition: all 0.3s linear;
     /*-moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;*/
-    color: #000;
+    color: #333;
 }
 
 a.button.view-all:before {
@@ -13406,7 +13372,7 @@ a.button.view-all:before {
     background: #ffe51e;
     padding: 10px 16px !important;
     text-transform: uppercase;
-    color: #000;
+    color: #333;
     border-radius: 3px;
 }
 
@@ -13426,7 +13392,7 @@ button.button.add-new {
     background: #ffe51e;
     padding: 10px 16px !important;
     text-transform: uppercase;
-    color: #000;
+    color: #333;
     border-radius: 3px;
 }
 
@@ -13449,7 +13415,7 @@ button.button.add-new:hover {
 }
 
 .product-view .product-shop .no-rating {
-    border-bottom: 1px dotted #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
     margin: 12px 0;
     padding: 0 0 12px;
 }
@@ -13636,7 +13602,7 @@ button.button.add-new:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #333;
     opacity: 0.7;
     z-index: 100;
     display: none;
@@ -13834,7 +13800,7 @@ button.button.add-new:hover {
 .products-grid .item .item-inner .block-content h3 {
     font-size: 13px;
     text-transform: none;
-    color: #000;
+    color: #333;
     margin-bottom: 10px;
     line-height: normal;
     text-transform: uppercase;
@@ -13855,7 +13821,7 @@ button.button.add-new:hover {
 .products-grid .item .item-inner .block-content p.price {
     font-size: 16px;
     margin: 8px 0;
-    color: #d23333;
+    color: #333;
 }
 
 .featured-cat-box .featured-cat .item .item-inner .item-img .item-box-hover .box-inner .product-quick-view {
@@ -13912,7 +13878,7 @@ button.button.add-new:hover {
 
 #best_products ul li .best_info p.price {
     font-size: 18px;
-    color: #d23333;
+    color: #333;
     margin: 8px 0 0;
 }
 
@@ -14141,7 +14107,7 @@ button.button.add-new:hover {
 }
 
 .product-shop .social li a {
-    border: 1px #999 solid000;
+    border: 1px #999 solid;
     border-radius: 45px;
     height: 38px;
     line-height: 38px;
