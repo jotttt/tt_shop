@@ -1,0 +1,263 @@
+
+#product-img-box {
+    position: relative;
+    width: 650px;
+    float: left;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#product-img-box .bx-wrapper .bx-viewport {
+    border: 0;
+    padding: 0;
+    left: 0;
+    overflow: hidden;
+
+}
+
+.bx-loading {
+    z-index: 51;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+
+.ppslider-arrows {
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    display: block;
+    text-indent: -9999px;
+    z-index: 53;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 70px;
+    background: url(../image/arrows_sprite.png);
+}
+
+#ppslider-leftarrow {
+    left: 0px;
+    background-position: 0px -126px;
+    -webkit-transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    -ms-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+}
+
+#ppslider-rightarrow {
+    right: 0px;
+    background-position: -51px -126px;
+    -webkit-transition: right 0.5s ease-in-out;
+    -moz-transition: right 0.5s ease-in-out;
+    -o-transition: right 0.5s ease-in-out;
+    -ms-transition: right 0.5s ease-in-out;
+    transition: right 0.5s ease-in-out;
+}
+
+#ppslider-leftarrow:hover {
+    background-position: 0 -60px;
+}
+
+#ppslider-rightarrow:hover {
+    background-position: -51px -60px;
+}
+
+@media (max-width: 1050px) {
+    #ppslider-leftarrow {
+        left: -10px;
+    }
+
+    #ppslider-rightarrow {
+        right: -10px;
+    };
+}
+
+#large-images {
+    height: 650px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#large-images
+li {
+    height: 650px;
+}
+
+#large-images
+#titlewrap {
+    position: absolute;
+    width: 385px;
+    text-align: center;
+    z-index: 51;
+}
+
+#large-images #titlewrap.template-01 {
+    width: 100%;
+    top: 320px;
+}
+
+#large-images #titlewrap.template-02 {
+    top: 35px;
+    right: 120px;
+}
+
+#large-images #titlewrap.template-03 {
+    width: 100%;
+    top: 15px;
+}
+
+#large-images #titlewrap.template-04 {
+    top: 180px;
+    left: 30px;
+}
+
+#large-images #titlewrap.template-05 {
+    top: 330px;
+    left: 20px;
+}
+
+#large-images #titlewrap.template-99 {
+    display: none;
+}
+
+#large-images #titlewrap
+h3 {
+    line-height: 135%;
+    margin-bottom: 15px;
+}
+
+#large-images #titlewrap
+h2 {
+    line-height: 250%;
+}
+
+#large-images #titlewrap
+.white {
+    color: #fff;
+}
+
+#large-images .zoomable,#large-images .product-image {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+}
+
+#bxpagerwrap {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    position: relative;
+}
+
+#bxpager {
+    width: 732px;
+    overflow: hidden;
+    float: left;
+    margin-top: 5px;
+}
+
+#bxpager
+a {
+    padding: 1px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    }
+
+#bxpager a:hover {
+ 
+}
+
+#bxpager .active,#bxpager .active:hover {border: 1px dotted #000000;
+    padding: 0px;
+   
+}
+
+#bxpager a
+img {
+    border: 1px
+solid #ddd;
+}
+
+#roundal,#roundel {
+    position: absolute;
+    top: 39px;
+    left: 12px;
+    z-index: 51;
+}
+
+body {
+    -webkit-touch-callout: none!important;
+}
+
+.parent-zoom {
+}
+
+.parent-zoom
+img {
+    cursor: url('../images/zoomin.cur'),crosshair;
+    border: 0;
+}
+
+.zoomy {
+    position: absolute;
+    display: none;
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='#3333333', Positive='true');
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 52;
+    overflow: hidden;
+    cursor: url('../images/zoomout.cur'), move;
+    -webkit-transition-property: border-width, border-color, opacity;
+    box-shadow: 1px 1px 10px #afafaf;
+    -webkit-transition-duration: 500ms, 1s, 500ms;
+    -webkit-transition-timing-function: ease;
+    -moz-box-shadow: 1px 1px 10px #afafaf;
+    -webkit-box-shadow: 1px 1px 10px #afafaf;
+    -o-box-shadow: 1px 1px 10px #afafaf;
+    -ms-box-shadow: 1px 1px 10px #afafaf;
+}
+
+.zoomy
+span {
+    display: block;
+    margin: 5px
+auto;
+}
+
+.parent-zoom
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+.inactive
+img {
+    cursor: url('../images/zoomout.cur'), crosshair;
+}
+
+.zoomy
+#tmp {
+    max-width: none;
+    max-height: none;
+    top: -999999px;
+    left: -999999px;
+}
+
+.zoomy.start {
+}
+
+.zoomy-wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+

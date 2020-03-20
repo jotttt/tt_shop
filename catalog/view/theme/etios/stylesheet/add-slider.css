@@ -1,0 +1,60 @@
+/* slide-show */
+/* Slider */
+
+
+.slides_container {
+	width: 800px;
+	height:200px;
+	position: relative;
+	padding-left: 0px;
+	background:#fff;
+}
+.slides_container div {
+	width: 780px;
+	display: block;
+	position: relative;
+	z-index: 20;
+	background:#fff;
+}
+.slides_container div p {
+	z-index: 40;
+	position: absolute;
+	top: 124px;
+	left: 246px;
+	padding-right: 10px;
+	color: #560e78;
+	font-size: 14px;
+}
+#slides {
+	position: relative;
+	width: 780px;
+	margin:auto;
+}
+.slides_container div p {
+	top: 175px;
+	left: 320px;
+}
+#slides a.prev {
+	position:absolute;
+	left:-142px;
+	top:25%;
+	background:url(../image/slideshow-arrows.png) 0 0 no-repeat;
+	width:50px;
+	height:50px;
+	text-indent:-10000px;
+}
+#slides a.prev:hover {
+	background-position:0 -66px;
+}
+#slides a.next {
+	position:absolute;
+	right:-142px;
+	top:25%;
+	background:url(../image/slideshow-arrows.png) -50px 0 no-repeat;
+	width:50px;
+	height:50px;
+	text-indent:-10000px;
+}
+#slides a.next:hover {
+	background-position:-50px -66px;
+}
